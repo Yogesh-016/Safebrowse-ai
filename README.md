@@ -2,6 +2,10 @@
 
 An AI-powered web analysis tool that summarizes any webpage, lets you chat with its content, and flags basic phishing/scam risk indicators before you trust a link.
 
+🔗 **Live Demo**: [safebrowse-ai.onrender.com](https://safebrowse-ai.onrender.com)
+
+> Note: hosted on Render's free tier — the app spins down after 15 minutes of inactivity, so the first request may take 30–60 seconds while it spins back up.
+
 ## Features
 
 - **URL Summarizer** — scrapes a webpage (via Playwright) and generates a quick summary, key points, and takeaways using an LLM (Groq `llama-3.3-70b-versatile`)
